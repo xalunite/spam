@@ -82,7 +82,4 @@ if (!is_dir($home_dir.'/.config/BomSMS')) {
 		$no = $a+1;
 		print "     \033[1;32m[\033[1;35m$no\033[1;32m] Sukses Mengirim Spam Ke \033[1;35m$nomer \033[1;32m√\n\033[1;32m";
 	}
-}else{
-	unlink($file_lisensi);
-	die("\033[1;31m[!] Lisensi anda salah, silahkan hubungi WA +18544444197!!!\033[1;33m\n");
 }
